@@ -1,0 +1,12 @@
+Cuando usualmente se nos muestra en git '(HEAD -> master) : HEAD indica que estamos en la versión HEAD(qué es la más reciente) y master indica el nombre de la rama
+
+
+Ramas:
+
+
+        * cuando creamos una rama para hacer experimentos en la industría se le llama "development"
+        * cuando creamos una rama para hacer arreglar un bug en la industría se le llama "hotfix"
+
+        
+
+        

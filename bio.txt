@@ -1,2 +1,9 @@
-HOla me llamo brando, este es mi curso de git
-y voy a aprender mucho xde
+HOla me llamo Brando, este es mi curso de git
+
+y voy a aprender mucho xd.
+
+Ahora mismo estoy añadiendo màs cambios para aprender el comado git show.
+
+Y estaremos añadiendo un parrafo más.
+
+Y otro parrafo más.
