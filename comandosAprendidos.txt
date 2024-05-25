@@ -1,3 +1,7 @@
+git log             -> muestra  todos los commits que se hicieron y un hash asociados a ellos 
+
+git log --stat      -> muestra los commits y tambien los archivos especificos que cambiaron en dicho commit, y detalles cuantos bits cambiaron
+
 git rm --cached [file] -> quita del staging area el archivo, es el reverso de 'git add'
 
 git show [file] -> muestra los cambios de este archivo con su versión mas reciente (HEAD, [branch]) y su última versión o último commit da igual.
@@ -18,7 +22,20 @@ git reset [hash del commit] --soft            -> Regresar a ese commit, borrando
 
 
 
+
+
+
+
 git fetch                       -> Se trae la última versión del reposotirio remoto, al local repository (.git), pero no lo copia en el working directory.
 git merge                       -> Fuciona lo que tenemos en el local repository con el working directory.
 
 git pull = git fetch & git merge
+
+
+
+________________
+
+git reflog      -> Muestro todos los cambios que se le hicieron a la rama y su hash para regresar a ellos. desde commits, resets, o checkouts; se puede revertir esos cambios.
+
+
+
