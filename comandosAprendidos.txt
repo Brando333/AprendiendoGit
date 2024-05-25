@@ -8,5 +8,10 @@ git diff [hash de commit a] [hash de commit b] ->   muestra la diferencia entre 
                                                     si no que asume que el primer parametro es el hash del commit más antiguo y el segundo parametro, el hash del commit mas reciente.
 
 
+git diff                                        -> Si lo usamos sin parametros muestra la diferencia entre el 'working directory' y el 'staging area'
+                                                    Por eso si lo usamos después de usar 'git add .' no aparece nada pues el working directory se alinea con el staging area.
+                                                    
+
+
 git reset [hash del commit] --hard            -> Regresar a ese commit, borrando todos los commits que estaban después de ese commit, es peligroso pero es el que más se usa.
 git reset [hash del commit] --soft            -> Regresar a ese commit, borrando todos los commits que estaban después de ese commit, si había archivos en staging, aún siguen ahí.
