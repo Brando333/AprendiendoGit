@@ -43,7 +43,9 @@ git pull = git fetch & git merge
 
 ________________
 
-git reflog      -> Muestro todos los cambios que se le hicieron a la rama y su hash para regresar a ellos. desde commits, resets, o checkouts; se puede revertir esos cambios.
+git reflog      -> Muestra todos los cambios que se le hicieron a la rama y su hash para regresar a ellos. desde commits, resets, o checkouts; se puede revertir esos cambios.
 
 
 
+git commit -am   -> añade al 'staging area' los archivos que se han modificado, solo cuenta para archivos que ya estaban 'tracked', 
+                    si hay archivos 'untracked' toca hacer el git add manualmente
