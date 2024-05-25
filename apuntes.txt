@@ -8,5 +8,10 @@ Ramas:
         * cuando creamos una rama para hacer arreglar un bug en la industría se le llama "hotfix"
 
         
+===========================================================================================================================
 
-        
+Entonces, tenemos 3 conceptos en git, el working directory, el staging area y el local repository
+
+        El working directory es todo el directorio donde está el proyecto
+        El staging area es un lugar conceptual donde se envian los cambios que git va a guardar
+        El local repository es la base de datos de git que vive en el archivo .git
