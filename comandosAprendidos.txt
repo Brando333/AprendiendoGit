@@ -22,5 +22,3 @@ git fetch                       -> Se trae la última versión del reposotirio r
 git merge                       -> Fuciona lo que tenemos en el local repository con el working directory.
 
 git pull = git fetch & git merge
-
-
