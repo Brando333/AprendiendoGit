@@ -21,6 +21,14 @@ git reset [hash del commit] --hard            -> Regresar a ese commit, borrando
 git reset [hash del commit] --soft            -> Regresar a ese commit, borrando todos los commits que estaban después de ese commit, si había archivos en staging, aún siguen ahí.
 
 
+git checkout [hash del commit]                  -> Regresa el working directory al commit indicado creando una rama experimental
+git checkout [hash del commit] [file name]      -> Regresa solamente un archivo al estado en el que estaba en dicho commit sin moverte de la rama en la que estabas
+                                                    Este archivo entonces ahora queda como modified y para revertirlo debemos hacer otro checkout así:
+            Entonces para volver el archivo a como lo teniamos:
+            * git checkout [nombre de la rama en la que ya estabamos y seguimos estando] [file name]
+
+
+
 
 
 
