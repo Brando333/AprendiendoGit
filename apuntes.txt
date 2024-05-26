@@ -22,5 +22,5 @@ Entonces, tenemos 3 conceptos en git, el working directory, el staging area y el
 
 
 Cuando creamos una rama nueva, esta se crea como una copia de todos los commits de la rama desde la cual estoy posicionado.
-git branch [new branch name]
+        git branch [new branch name]
 
