@@ -2,6 +2,9 @@ HOla me llamo Brando, este es mi curso de git
 
 y voy a aprender mucho xd.
 
+Estos cambios son de brandobrandocalderon@hotmail.com
+
+
 Ahora mismo estoy añadiendo màs cambios para aprender el comado git show.
 
 Y estaremos añadiendo un parrafo más.
