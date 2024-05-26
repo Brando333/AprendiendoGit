@@ -49,3 +49,11 @@ git reflog      -> Muestra todos los cambios que se le hicieron a la rama y su h
 
 git commit -am   -> añade al 'staging area' los archivos que se han modificado, solo cuenta para archivos que ya estaban 'tracked', 
                     si hay archivos 'untracked' toca hacer el git add manualmente
+
+
+==============================================
+
+git  branch [branch name]       -> crea una nueva rama con dicho nombre
+git checkout -b [branch name]   -> crea la rama y se mueve hacia ahí.
+
+git push origin [branch name]   -> envia la rama al remoto

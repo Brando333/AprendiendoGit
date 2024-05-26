@@ -15,3 +15,12 @@ Entonces, tenemos 3 conceptos en git, el working directory, el staging area y el
         El working directory es todo el directorio donde está el proyecto
         El staging area es un lugar conceptual donde se envian los cambios que git va a guardar
         El local repository es la base de datos de git que vive en el archivo .git
+
+
+
+===========================================================================================================================
+
+
+Cuando creamos una rama nueva, esta se crea como una copia de todos los commits de la rama desde la cual estoy posicionado.
+git branch [new branch name]
+
