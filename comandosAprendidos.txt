@@ -89,3 +89,11 @@ git push origin :refs/tags/[tag name]   -> elimina el tag del remote repository
 
  git show-branch            -> muestra las ramas que tenemos en local y los cambios que han tenido en cada commit
  git show-branch --all      -> muestra las ramas en local y en remoto que hay y sus cambios en cada commit
+
+===========================================================================
+
+git push [source name] [branch name]            -> Se especifica el alias del 'remote repository' y el nombre de la rama que vas a empujar
+git push                                        -> Solo funciona cuando solo hay una rama en el 'local repository' 
+
+git pull [source name] [branch name]        
+git pull                                        ___ Igualmente.
