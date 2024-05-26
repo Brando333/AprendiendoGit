@@ -76,3 +76,4 @@ git tag                 -> Lista todos los tags
 git show-refs --tags    -> Lista los tags y un hash que hace referencia al tag, no al commit.
 
 
+git push [origin] --tags    -> empuja los tags al remoto
