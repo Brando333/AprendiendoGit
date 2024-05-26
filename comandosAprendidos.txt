@@ -49,3 +49,14 @@ git reflog      -> Muestra todos los cambios que se le hicieron a la rama y su h
 
 git commit -am   -> añade al 'staging area' los archivos que se han modificado, solo cuenta para archivos que ya estaban 'tracked', 
                     si hay archivos 'untracked' toca hacer el git add manualmente
+
+
+git merge [branch name]     -> fuciona 2 ramas, la rama donde te encuentras (A) y la rama del parametro(B), trayendo todos los cambios de B hacía A
+                                Generalmente todos los merges se hacen en la rama principal master o main, el merge es automatico cuando en una linea 
+                                de B, añades algo que A no tiene.
+                                El problema surge cuando A tiene algo en una linea y B también tiene algo diferente en esa linea, entonces toca escoger con cuál
+                                linea te vas a quedar, con la de A o B, una vez escogida la linea o lineas con las que te vas a quedar tenés que hacer un nuevos commit
+                                generalmente: "se resolvió conflictos de merge" y volver a ejecutar el git merge [branch name]
+
+
+
