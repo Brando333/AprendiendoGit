@@ -82,4 +82,10 @@ git tag -d [tag name]       -> elimina el tag (en el local repository)
 
 git push origin :refs/tags/[tag name]   -> elimina el tag del remote repository
 
+ 
 
+ _______________________________
+ branches 
+
+ git show-branch            -> muestra las ramas que tenemos en local y los cambios que han tenido en cada commit
+ git show-branch --all      -> muestra las ramas en local y en remoto que hay y sus cambios en cada commit
