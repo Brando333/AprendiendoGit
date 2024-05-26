@@ -72,3 +72,7 @@ git tag -a [tag verssion] -m "[message]" [commit hash]    -> Crea una referencia
 
 
     
+git tag                 -> Lista todos los tags
+git show-refs --tags    -> Lista los tags y un hash que hace referencia al tag, no al commit.
+
+
