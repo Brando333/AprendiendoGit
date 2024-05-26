@@ -77,3 +77,9 @@ git show-refs --tags    -> Lista los tags y un hash que hace referencia al tag, 
 
 
 git push [origin] --tags    -> empuja los tags al remoto
+
+git tag -d [tag name]       -> elimina el tag (en el local repository)
+
+git push origin :refs/tags/[tag name]   -> elimina el tag del remote repository
+
+
