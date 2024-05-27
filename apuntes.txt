@@ -34,3 +34,16 @@ BitBucket o GitLab
 
 En GitHub cuando un proyecto te gusta le puedes dar 'Watch' para poder ver y seguir los cambios en el proyecto, y darle 'Star' para que 
 lleguen notificacioens a tu cuenta cuando hagan cambios en el proyecto
+
+=====================================================================================================================================
+
+Cuando hacemos un fork y queremos sincronizar nuestro fork con el original, lo podemos hacer desde la interfaz de github con la opción 'sync repository'
+pero para hacerlo desde la terminal basta con añadir un nuevo 'remote', generalmente se le llama (upstream) apuntando a el repositorio remoto original. 
+
+       git remote add upstream [url del repo remoto original]
+
+Y luego hacer un pull del upstream para traernos su última versión y luego subirlo a nuestro fork.
+
+       git pull upstream master
+       git push origin master
+
