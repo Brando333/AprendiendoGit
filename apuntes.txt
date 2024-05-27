@@ -1,12 +1,8 @@
 Cuando usualmente se nos muestra en git '(HEAD -> master) : HEAD indica que estamos en la versión HEAD(qué es la más reciente) y master indica el nombre de la rama
 
-
 Ramas:
-
-
         * cuando creamos una rama para hacer experimentos en la industría se le llama "development"
         * cuando creamos una rama para hacer arreglar un bug en la industría se le llama "hotfix"
-
         
 ===========================================================================================================================
 
@@ -16,10 +12,7 @@ Entonces, tenemos 3 conceptos en git, el working directory, el staging area y el
         El staging area es un lugar conceptual donde se envian los cambios que git va a guardar
         El local repository es la base de datos de git que vive en el archivo .git
 
-
-
 ===========================================================================================================================
-
 
 Cuando creamos una rama nueva, esta se crea como una copia de todos los commits de la rama desde la cual estoy posicionado.
         git branch [new branch name]
@@ -28,7 +21,6 @@ Cuando creamos una rama nueva, esta se crea como una copia de todos los commits 
 
 La rama master  es la que se sube a producción, ya sea una aplicación web a un host o una app movil a una app store, pero en paralelo 
 a la rama master existe una de pruebas, generalmente se le llama 'staging develop', esta rama también se sube a un servidor de pruebas
-
 
 Entonces tengo una rama A y quiero unirla con la rama 'staging develop', lo correcto no es hacer un merge directamente, si no pasarlo a 
 un estado intermedio llamdo 'pull request'.
