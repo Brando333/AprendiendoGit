@@ -38,4 +38,7 @@ generalmente un DevOps o  el product manager o lider del equipo. Al ser aprobado
 El 'pull request' es una característica meramente de GitHub, en otros entornos tiene nombre distintos como push request o merge request en 
 BitBucket o GitLab
 
+=====================================================================================================================================
 
+En GitHub cuando un proyecto te gusta le puedes dar 'Watch' para poder ver y seguir los cambios en el proyecto, y darle 'Star' para que 
+lleguen notificacioens a tu cuenta cuando hagan cambios en el proyecto
