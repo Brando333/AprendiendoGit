@@ -47,3 +47,11 @@ Y luego hacer un pull del upstream para traernos su última versión y luego sub
        git pull upstream master
        git push origin master
 
+=====================================================================================================================================
+
+Es una mala práctica subir al repositorio remoto archivos binarios como imagenes, videos, entre otros, la razón es por que pesan demasiado y git trabaja bien con archivos
+de texto plano que puede ver, si un cambio es hecho en un archivo de texto plano git solo cambia ese trozo del cambio para una versión y otra, pero en un archivo binario, un
+cambio en el archivo git lo percibe e interpreta como un archivo totalmente diferente, y por cada commit que incluya un archivo binario el peso aumenta considerablemente, por 
+eso una buena práctica es poner todas las extensiones binarias que hay en el proyecto en un .gitignore, y poner esos archivos binarios como imagenes y videos, generalemente en 
+otro lugar, como una nube.
+
